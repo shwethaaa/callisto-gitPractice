@@ -1,0 +1,27 @@
+{
+  "name": "gitpractice",
+  "version": "1.0.0",
+  "description": "star wars names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwethaaa/callisto-gitPractice.git"
+  },
+  "keywords": [
+    "random",
+    "star",
+    "wars"
+  ],
+  "author": "shwetha <shwetha.kumari@robosoftin.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shwethaaa/callisto-gitPractice/issues"
+  },
+  "homepage": "https://github.com/shwethaaa/callisto-gitPractice#readme",
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  }
+}
