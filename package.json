@@ -1,14 +1,16 @@
 {
   "name": "gitpractice",
-  "version": "1.4.0-beta.0",
+  "version": "0.0.0-development",
   "description": "star wars names",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shwethaaa/callisto-gitPractice.git"
+    "url": "https://github.com/shwethaaa/callisto-gitPractice.git"
   },
   "keywords": [
     "random",
@@ -23,5 +25,15 @@
   "homepage": "https://github.com/shwethaaa/callisto-gitPractice#readme",
   "dependencies": {
     "unique-random-array": "2.0.0"
+  },
+  "devDependencies": {
+    "chai": "4.3.0",
+    "commitizen": "4.2.3",
+    "cz-conventional-changelog": "3.3.0",
+    "mocha": "8.3.0",
+    "semantic-release": "^17.3.9"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
